@@ -47,7 +47,7 @@ The dataset used for this project consists of customer data with the following c
 
 The dataset was segmented into three distinct customer clusters based on their purchasing behavior and demographics. The following are the descriptions of each cluster:
 
-### Cluster 1: **Premium Consumers** (Blue)
+### Cluster 1: **Premium Consumers** (Purple)
 - **Description**: This cluster consists of individuals with higher incomes and older ages. They make more frequent purchases of premium consumer goods, especially in the food sector and luxury products such as gold. They are more active in purchasing goods offline (through stores).
 - **Key Characteristics**: 
   - High-income
