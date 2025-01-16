@@ -43,7 +43,7 @@ The dataset used for this project consists of customer data with the following c
 | Response              | Response to the marketing campaign (0 = no, 1 = yes) |
 
 ## Clustering Results
-![Cluster image](Cluster-Visualize-PCA.png)
+![Cluster image](Clustered-image.png)
 
 The dataset was segmented into three distinct customer clusters based on their purchasing behavior and demographics. The following are the descriptions of each cluster:
 
@@ -156,7 +156,7 @@ To use this notebook:
 ```bash
 customer-segmentation/
 │
-├── Cluster-image.png
+├── Clustered-image.png
 │
 ├── dataset/                     # Folder containing raw and processed datasets
 │   └── Customer_Segmentation.csv
