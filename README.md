@@ -1,6 +1,14 @@
-# Customer Segmentation Using Clustering and Classification
+# **Customer Segmentation and Predictive Modeling: Unlocking Insights for Targeted Marketing**
 
 This project focuses on customer segmentation using clustering algorithms to better understand customer behavior and tailor marketing strategies. By analyzing a retail dataset, we aim to segment customers into distinct groups based on their purchasing behavior and demographics.
+
+## **Why Customer Segmentation Matters?**
+
+Customer segmentation is a powerful tool that allows businesses to:
+- **Tailor marketing strategies** by understanding different customer needs.
+- **Personalize experiences** for various customer groups.
+- **Improve retention and loyalty** by offering products and services that resonate with specific segments.
+
 
 ## Dataset Overview
 
@@ -70,6 +78,33 @@ The dataset was segmented into three distinct customer clusters based on their p
   - Focus on products that provide a balance between quality and price, such as everyday necessities or products with affordable but premium brands.
   - Take advantage of multiple channels, both online and offline, with offers tailored to both in-store and online shopping.
   - Offer loyalty programs that can attract frequent shoppers, such as reward points for repeat purchases.
+<br>
+<br>
+
+## Model Evaluation
+
+In addition to clustering, we used classification algorithms to predict customer clusters. Here are the evaluation results for the models used:
+
+### 1. **Logistic Regression**:
+- **Accuracy**: 0.943
+- **Precision**: 0.944
+- **Recall**: 0.944
+- **F1-Score**: 0.943
+
+### 2. **Extra Trees**:
+- **Accuracy**: 0.993
+- **Precision**: 0.993
+- **Recall**: 0.993
+- **F1-Score**: 0.993
+
+### 3. **Support Vector Machine (SVM)**:
+- **Accuracy**: 0.998
+- **Precision**: 0.998
+- **Recall**: 0.998
+- **F1-Score**: 0.998
+
+As we can see, **SVM** achieved the highest performance across all metrics, followed by **Extra Trees** and **Logistic Regression**.
+
 
 ## Installation
 
